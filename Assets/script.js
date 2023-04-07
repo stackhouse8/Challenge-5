@@ -3,7 +3,7 @@
 // in the html.
 
 // Date/Day Display
-var todaysDate = dayjs().format('dddd, MMM Do YYYY');
+var todaysDate = dayjs().format('DD/MM/YYYY');
 $("#currentDay").html(todaysDate);
 
 $(document).ready(function () {
